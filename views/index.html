@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body class="dark-mode">
+    <div class="background-pattern"></div>
+    <header>
+        <nav>
+            <div class="logo"><a class="home" href="#inicio"><i data-lucide="code"></i></a></div>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#educacion">Educación</a>
+                <a href="#logros">Logros</a>
+                <a href="#tecnologias">Tecnologías</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#hobbies">Hobbies</a>
+            </div>
+            <div class="mode">
+                <button id="mode-toggle" aria-label="Cambiar modo">
+                    <i data-lucide="sun" class="light-icon"></i>
+                    <i data-lucide="moon" class="dark-icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio sobre-mi" class="hero content-section parallax" data-speed="0.5">
+            <img src="../assets/img/me.jpg" alt="Michael Correa" class="hero-image">
+            <div class="hero-content">
+                <h1><i data-lucide="code-2"></i> Hola, soy Michael Correa,</h1>
+                <p>Soy un desarrollador back-end apasionado por la lógica de programación y la resolución de problemas
+                    complejos, y aunque mi camino ha sido arduo, cada desafío ha fortalecido mi determinación y
+                    resiliencia; creo que el conocimiento es un viaje continuo, y mi deseo de aprender me impulsa a
+                    explorar nuevas tecnologías, convirtiendo cada proyecto en una oportunidad para crear soluciones
+                    eficientes y escalables, mientras me comprometo a hacer un impacto significativo en el mundo del
+                    desarrollo, guiado siempre por la perseverancia y la curiosidad.</p>
+
+                <p>Además me gustaría agradecerte ya que estás revisando mi portafolio, eso significa que te interesa
+                    saber más de mi🙌.</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/michael-smith-correa-lopez-3692b01b1/" target="_blank"
+                        aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="https://github.com/MaicolCorrea" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    <a href="https://discord.com/users/maicol9999" target="_blank" aria-label="Discord"><i data-lucide="message-circle"></i></a>
+                    <a href="maicolsmithcorrealopez@email.com" target="_blank" aria-label="Email">
+                        <i data-lucide="mail"></i>
+                    </a>
+                    <a href="tel:+573123155542" target="_blank" aria-label="Phone">
+                        <i data-lucide="phone"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="logros" class="content-section" data-aos="fade-up">
+            <h2>Logros y Reconocimientos</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-up">
+                    <div class="achievement-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3 class="achievement-title">2DO Lugar - Call for Code</h3>
+                    <p class="achievement-description">
+                        Desarrollamos una solución innovadora para combatir el calentamiento global, 
+                        combinando IoT y análisis de datos para monitorear y reducir emisiones de carbono.
+                    </p>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-icon">
+                        <i data-lucide="trophy"></i>
+                    </div>
+                    <h3 class="achievement-title">Proyecto Destacado SENA</h3>
+                    <p class="achievement-description">
+                        Implementación exitosa de un sistema de gestión empresarial que optimizó 
+                        procesos y redujo costos operativos en un 25%.
+                    </p>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-icon">
+                        <i data-lucide="star"></i>
+                    </div>
+                    <h3 class="achievement-title">Reconocimiento IBM</h3>
+                    <p class="achievement-description">
+                        Reconocimiento por contribuciones excepcionales en el desarrollo de 
+                        soluciones empresariales innovadoras.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="content-section" data-aos="fade-up">
+            <h2><i data-lucide="code"></i> Tecnologías</h2>
+            <div class="section-content">
+                <div class="technologies">
+                    <span class="tech-tag"><i data-lucide="html"></i> HTML5</span>
+                    <span class="tech-tag"><i data-lucide="palette"></i> CSS3</span>
+                    <span class="tech-tag"><i data-lucide="coffee"></i> Java</span>
+                    <span class="tech-tag"><i data-lucide="layout"></i> Boostrap 5</span>
+                    <span class="tech-tag"><i data-lucide="php"></i> PHP</span>
+                    <span class="tech-tag"><i data-lucide="server"></i> Laravel</span>
+                    <span class="tech-tag"><i data-lucide="git-branch"></i> Git</span>
+                    <span class="tech-tag"><i data-lucide="github"></i> Github</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" data-aos="fade-up">
+            <h2><i data-lucide="folder"></i> Proyectos</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="../assets/img/proyectos-multiverso.png" alt="Proyecto 1" class="project-image">
+                    <a class="project-multiverso"
+                        href="https://drive.google.com/drive/folders/1s3_2zuH-D6qL-wlop8EE93qmYfYZp98J">
+                        <h3>Sistema de información para la empresa Multiverso</h3>
+                    </a>
+                    <p>Junto a mi equipo de trabajo, desarrollamos un sistema de información para la empresa Multiverso
+                        (nombre en ese momento), creando un sistema de gestión que facilitó muchos procesos largos en la
+                        organización.</p>
+                    <p>TRABAJE DE FULLSTACK.</p>
+                    <div class="technologies">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">CSS (Boostrap)</span>
+                        <span class="tech-tag">JS</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../assets/img/projects-haConsulting.png" alt="Proyecto 2" class="project-image">
+                    <h3>Página Web H&A Consulting</h3>
+                    <p>Junto a mi equipo de trabajo, reestructuramos completamente la página de H&A Consulting,
+                        actualizando el código de PHP y Bootstrap y migrándola al framework de Laravel y React, lo que
+                        permitió que la página sea más eficiente y escalable.</p>
+                    <p>TRABAJE EN LA PARTE DE BACK-END.</p>
+                    <div class="technologies">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies-section content-section" data-aos="fade-up">
+            <h2><i data-lucide="heart"></i> Hobbies y Pasiones</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card" onclick="showHobbyDetails(this)">
+                    <div class="hobby-front">
+                        <i data-lucide="book-open"></i>
+                        <h3>Lectura</h3>
+                        <p>Psicología y desarrollo personal</p>
+                    </div>
+                    <div class="hobby-back">
+                        <h4>Mi pasión por la psicología</h4>
+                        <p>Me fascina entender el comportamiento humano y cómo podemos mejorar constantemente. Algunos de mis libros favoritos incluyen "Si lo crees lo creas" de Brian Tracy y "Hábitos atómicos" de James Clear.</p>
+                        <div class="hobby-tags">
+                            <span>Desarrollo Personal</span>
+                            <span>Psicología Cognitiva</span>
+                            <span>Hábitos</span>
+                            <span>Podcast</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobby-card" onclick="showHobbyDetails(this)">
+                    <div class="hobby-front">
+                        <i data-lucide="dumbbell"></i>
+                        <h3>Gimnasio</h3>
+                        <p>Entrenamiento y vida activa</p>
+                    </div>
+                    <div class="hobby-back">
+                        <h4>Mi Rutina Fitness</h4>
+                        <p>El entrenamiento es una parte fundamental de mi vida diaria. Me enfoco en el entrenamiento de fuerza y la importancia de mantener un estilo de vida saludable y equilibrado. Este hábito es muy importante en mi vida, ya que gracias a ella han cambiado aspectos muy importantes en mi vida.</p>
+                        <div class="hobby-tags">
+                            <span>Fuerza</span>
+                            <span>Nutrición</span>
+                            <span>Disciplina</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobby-card" onclick="showHobbyDetails(this)">
+                    <div class="hobby-front">
+                        <i data-lucide="gamepad-2"></i>
+                        <h3>Gaming</h3>
+                        <p>Videojuegos Competitivos</p>
+                    </div>
+                    <div class="hobby-back">
+                        <h4>Mi Pasión por los Videojuegos</h4>
+                        <p>Me apasionan los juegos competitivos como Valorant y rítmicos como OSU. Los videojuegos forman una parte importante a lo largo de mi vida, ya que me encanta no solo enfocar mi vida a la mejora continúa entonces es bueno saber que puedo hacer más cosas para pasar el tiempo y mejorar, además de que me ayudan a mejorar mis reflejos, concentración y habilidades de trabajo en equipo.</p>
+                        <div class="hobby-tags">
+                            <span>FPS</span>
+                            <span>Juegos Rítmicos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="experience-section">
+            <h2><i data-lucide="briefcase"></i> Experiencia</h2>
+            <div class="experience-timeline">
+                <div class="experience-item" onclick="toggleDropdown(this)">
+                    <div class="timeline-dot">
+                        <i data-lucide="code"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="header-main">
+                                <h3 class="job-title">Analista de Programación y Soporte</h3>
+                                <div class="company-info">
+                                    <span class="company-name"><i data-lucide="building"></i> H&A CONSULTING LTDA</span>
+                                    <span class="job-type"><i data-lucide="git-branch"></i> Presencial</span>
+                                    <span class="job-duration"><i data-lucide="calendar"></i> Abril 2024 - Presente</span>
+                                    <span class="job-status active"><i data-lucide="activity"></i> Actualmente</span>
+                                </div>
+                            </div>
+                            <span class="dropdown-btn"><i data-lucide="chevron-down"></i></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <div class="job-description">
+                                <h4>Logros destacados:</h4>
+                                <ul>
+                                    <li><i data-lucide="check-circle"></i> Optimización de procesos clave de la empresa</li>
+                                    <li><i data-lucide="check-circle"></i> Desarrollo de soluciones personalizadas</li>
+                                    <li><i data-lucide="check-circle"></i> Soporte técnico especializado</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">PHP</span>
+                                    <span class="tech-tag">Laravel</span>
+                                    <span class="tech-tag">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" onclick="toggleDropdown(this)">
+                    <div class="timeline-dot">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="header-main">
+                                <h3 class="job-title">Application Developer</h3>
+                                <div class="company-info">
+                                    <span class="company-name"><i data-lucide="building"></i> IBM</span>
+                                    <span class="job-type"><i data-lucide="git-branch"></i> Híbrido</span>
+                                    <span class="job-duration"><i data-lucide="calendar"></i> Nov 2021 - Jul 2022</span>
+                                </div>
+                            </div>
+                            <span class="dropdown-btn"><i data-lucide="chevron-down"></i></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <div class="job-description">
+                                <p class="job-summary">
+                                    Desarrollador de aplicaciones empresariales enfocado en soluciones escalables y mantenibles.
+                                    Especializado en el desarrollo backend con Java y Spring Boot.
+                                </p>
+                                <div class="responsibilities">
+                                    <h4><i data-lucide="list-checks"></i> Responsabilidades principales:</h4>
+                                    <ul>
+                                        <li><i data-lucide="check-circle"></i> Desarrollo y mantenimiento de microservicios usando Java y Spring Boot</li>
+                                        <li><i data-lucide="check-circle"></i> Colaboración en equipos internacionales usando metodologías ágiles</li>
+                                        <li><i data-lucide="check-circle"></i> Implementación de soluciones cloud-native en IBM Cloud</li>
+                                        <li><i data-lucide="check-circle"></i> Optimización de rendimiento y seguridad de aplicaciones</li>
+                                    </ul>
+                                </div>
+                                <div class="achievements-section">
+                                    <h4><i data-lucide="trophy"></i> Logros destacados:</h4>
+                                    <ul>
+                                        <li><i data-lucide="star"></i> Reducción del 40% en tiempo de respuesta de APIs críticas</li>
+                                        <li><i data-lucide="star"></i> Implementación exitosa de CI/CD reduciendo el tiempo de despliegue</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack">
+                                    <h4><i data-lucide="code-2"></i> Tecnologías utilizadas:</h4>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">Java</span>
+                                        <span class="tech-tag">Spring Boot</span>
+                                        <span class="tech-tag">Angular</span>
+                                        <span class="tech-tag">Docker</span>
+                                        <span class="tech-tag">Kubernetes</span>
+                                        <span class="tech-tag">IBM Cloud</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="educacion" class="education-section content-section" data-aos="fade-up">
+            <h2><i data-lucide="graduation-cap"></i> Educación</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="timeline-dot">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Ingeniería de Software</h3>
+                        <div class="education-info">
+                            <span class="institution"><i data-lucide="building"></i> Corporación Universitaria Iberoamericana</span>
+                            <span class="duration"><i data-lucide="calendar"></i> Junio 2024 - Presente</span>
+                            <span class="status active"><i data-lucide="activity"></i> En curso</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="timeline-dot">
+                        <i data-lucide="code"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h3>
+                        <div class="education-info">
+                            <span class="institution"><i data-lucide="building"></i> SENA</span>
+                            <span class="duration"><i data-lucide="calendar"></i> Enero 2022 - Julio 2023</span>
+                            <span class="status completed"><i data-lucide="check-circle"></i> Completado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="timeline-dot">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Técnico en Programación de Software</h3>
+                        <div class="education-info">
+                            <span class="institution"><i data-lucide="building"></i> SENA</span>
+                            <span class="duration"><i data-lucide="calendar"></i> Febrero 2021 - Noviembre 2022</span>
+                            <span class="status completed"><i data-lucide="check-circle"></i> Completado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="achievementModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="achievementTitle"></h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img id="achievementImage" src="" alt="" class="modal-image">
+                <p id="achievementDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Michael Correa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
